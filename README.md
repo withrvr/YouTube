@@ -39,16 +39,16 @@ api_key_value = "YourApiKey"
 
 ## <u>Static Files:-</u>
 
--   config_api.py
+-   [config_api.py](YouTube-API-Python-Code/config_api.py)
     -   connect to YouTube api and
--   api_keys.py
+-   [api_keys.py](YouTube-API-Python-Code/api_keys.py)
     -   content api's keys and tokens variable with values
 
 ## <u>Dynamic Files ( means run this file for corresponding results ):-</u>
 
--   playlist_total_duration.py
+-   [playlist_total_duration.py](YouTube-API-Python-Code/playlist_total_duration.py)
     -   find total duration of the playlist
--   sorting_playlist_video.py.py
+-   [sorting_playlist_video.py](YouTube-API-Python-Code/sorting_playlist_video.py)
     -   sort playlist according to us and get top 3 or 10 or all videos
--   how_subs_me.py.py .. ( Under Development )
+-   [who_subs_me.py .. ( Under Development )](YouTube-API-Python-Code/who_subs_me.py)
     -   get name of subs ( but actual not gets of all because of youtube verification )
