@@ -41,7 +41,7 @@ api_key_value = "YourApiKey"
 
 -   [config_api.py](YouTube-API-Python-Code/config_api.py)
     -   connect to YouTube api and
--   [api_keys.py](YouTube-API-Python-Code/api_keys.py)
+-   api_keys.py
     -   content api's keys and tokens variable with values
 
 ## <u>Dynamic Files ( means run this file for corresponding results ):-</u>
