@@ -25,7 +25,7 @@ YouTube-API using python to do diffrent stuff
 -   Fork and pull - OR - download this repo
 -   Download python
 -   `pip install google-api-python-client` ( Download YouTube-API module )
--   api_key.py ( create and add your keys here )
+-   [Create file with name -- api_key.py -- with this code and api key value](YouTube-API-Python-Code/)
 
 ```
 api_key_value = "YourApiKey"
