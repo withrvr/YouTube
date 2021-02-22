@@ -1,24 +1,22 @@
-# Twitter-API ... repo ???
+# YouTube-API ... repo ???
 
-Twitter-API using python to do diffrent stuff
-<br/>
-<br/>
+YouTube-API using python to do diffrent stuff
+<br/><br/>
 
-# Which file does what
+# Sites ( Links )
 
-## <u>Static Files:-</u>
+### My Channel Links
 
--   config_tweepy.py
-    -   connect to twitter api using keys and creatig api object
--   api_keys.py
-    -   content api's keys and tokens variable with values
+-   [YouTube - With RVR](https://www.youtube.com/channel/UC7vo7Ytk-XDT_Qk_Uh_ziDg?sub_confirmation=1)
+-   [YouTube - Tech With RVR](https://www.youtube.com/techwithrvr?sub_confirmation=1)
+-   [YouTube - Code With RVR](https://www.youtube.com/channel/UCz155xQn-6lzHWs9_2oX1Dg?sub_confirmation=1)
 
-## <u>Dynamic Files ( means run this file for corresponding results ):-</u>
+### Docs and other links
 
--   username_info.py
-    -   to print the basic information of the user
--   mentioned_me_with_hashtag.py.py
-    -   to reply to the tweet how have added #withrvr ( can change ) and mentioned you ( my case @withrvr ) in the tweet
+-   [Github - Home page of YouTube APIs](https://github.com/youtube/api-samples)
+-   [Github - Get Started Page](https://github.com/googleapis/google-api-python-client/blob/master/docs/start.md)
+-   [GitHub - YouTube APIS Methods page - Docs](https://googleapis.github.io/google-api-python-client/docs/dyn/youtube_v3.html)
+-   [Youtube-API Offical Site - Reference page - Docs](https://developers.google.com/youtube/v3/docs)
 
 <br>
 
@@ -26,22 +24,31 @@ Twitter-API using python to do diffrent stuff
 
 -   Fork and pull - OR - download this repo
 -   Download python
--   `pip install tweepy` ( Download tweepy module )
+-   `pip install google-api-python-client` ( Download YouTube-API module )
 -   api_key.py ( create and add your keys here )
 
 ```
-consumer_key = ""
-consumer_secret = ""
-access_token = ""
-access_token_secret = ""
+api_key_value = "YourApiKey"
 ```
 
 -   Now run :- `python File_Name.py`
 
-# Sites ( Links )
+<br>
 
--   [Twitter Site](https://twitter.com/)
--   [@withrvr Twitter Account](https://twitter.com/withrvr)
-    <br><br>
--   [Tweepy Docs](https://docs.tweepy.org/)
--   [Twitter API Docs](https://developer.twitter.com/en/docs/twitter-api)
+# Which file does what
+
+## <u>Static Files:-</u>
+
+-   config_api.py
+    -   connect to YouTube api and
+-   api_keys.py
+    -   content api's keys and tokens variable with values
+
+## <u>Dynamic Files ( means run this file for corresponding results ):-</u>
+
+-   playlist_total_duration.py
+    -   find total duration of the playlist
+-   sorting_playlist_video.py.py
+    -   sort playlist according to us and get top 3 or 10 or all videos
+-   how_subs_me.py.py
+    -   get name of subs ( but acctuall not gets of all because of youtube verificaion )
