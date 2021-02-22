@@ -50,5 +50,5 @@ api_key_value = "YourApiKey"
     -   find total duration of the playlist
 -   sorting_playlist_video.py.py
     -   sort playlist according to us and get top 3 or 10 or all videos
--   how_subs_me.py.py
-    -   get name of subs ( but acctuall not gets of all because of youtube verificaion )
+-   how_subs_me.py.py .. ( Under Development )
+    -   get name of subs ( but actual not gets of all because of youtube verification )
