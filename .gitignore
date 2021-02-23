@@ -7,3 +7,5 @@ YouTube-API-Python-Code/api_keys.py
 # and testing  files
 YouTube-API-Python-Code/testing.py
 YouTube-API-Python-Code/foo.*
+
+YouTube-API-Python-Code/*.json

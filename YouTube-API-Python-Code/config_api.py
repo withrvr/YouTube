@@ -7,8 +7,11 @@ print()
 def save_as_json(obj, fileName):
     import json
     # saving to the foo.json file
-    with open(fileName + ".json", 'w') as file:
+    with open(f"{fileName}.json", 'w') as file:
         json.dump(obj, file, indent=4)
+
+    print(f"\nObject save to file {fileName}.json ... can view data there")
+    print()
 
 
 # add your own api_key of yt here

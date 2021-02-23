@@ -24,7 +24,9 @@ YouTube-API using python to do diffrent stuff
 
 -   Fork and pull - OR - download this repo
 -   Download python
--   `pip install google-api-python-client` ( Download YouTube-API module )
+-   `pip install google-api-python-client` ( to work with YouTube-APIs )
+-   `pip install google-auth` ( to work with Auth )
+-   `pip install google-auth` ( to work with Auth )
 -   [Create file with name -- api_key.py -- with this code and api key value](YouTube-API-Python-Code/)
 
 ```
@@ -41,6 +43,8 @@ api_key_value = "YourApiKey"
 
 -   [config_api.py](YouTube-API-Python-Code/config_api.py)
     -   connect to YouTube api and
+-   [ids.py](YouTube-API-Python-Code/ids.py)
+    -   content ids of my playlist and channels
 -   api_keys.py .. [Click to know where to add](YouTube-API-Python-Code/)
     -   content api's keys and tokens variable with values
 
