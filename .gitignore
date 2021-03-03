@@ -1,11 +1,10 @@
 __pycache__
 .vscode
 
-# api_key
-YouTube_API_Python_Code/api_keys.py
+# api_key and imp files
+api_keys.py
+client_secrets.json
 
 # and testing  files
-YouTube_API_Python_Code/testing.py
-YouTube_API_Python_Code/foo.*
-
-YouTube_API_Python_Code/*.json
+testing*.py
+foo.*
