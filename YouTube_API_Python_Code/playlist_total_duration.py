@@ -59,7 +59,7 @@ while True:
             seconds=seconds
         )
 
-        print(vid_duration)
+        print(item["id"], '-', vid_duration)
         total_vid_duration += vid_duration
 
     print("fetching... next videos...")
